@@ -22,3 +22,17 @@ $ sudo python setup.py install
 ```
 $googleimagesdownload --keywords "Polar bears" --limit 200 -cd /Users/tianran/Downloads/chromedriver
 ```
+
+- \[TO DO\] 用这种方法姑且准备爬 李卡、婷姐、彭小苒、陈星旭的1000张图。
+
+## 换脸步骤
+
+### 代码安装 
+
+### 人脸模型训练
+
+#### 图像预处理（角度、亮度等多样性手动挑选）
+
+
+
+
