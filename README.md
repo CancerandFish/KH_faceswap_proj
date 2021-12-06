@@ -9,7 +9,7 @@
 - **Do not** extract every single frame from a video for training as from frame to frame the faces will be very similar.
 
 ### 人工收集
-- 卡黄电视剧cut素材（现代剧《逆袭》），视频形式，其余人脸干扰有，需要手动清除。
+- \[ * \]卡黄电视剧cut素材（现代剧《逆袭》），视频形式，其余人脸干扰有，需要手动清除。
 - 卡黄unit、solo等演唱会focus，已完成，质量好，但光照衣着角度均单一。其余人脸干扰有，需要手动清除。
 - 卡黄采访视频。光照衣着角度均单一。其余人脸干扰无。
 - 个站微博爬取。形式多样，但精修后过于失真。
