@@ -39,7 +39,17 @@ $ googleimagesdownload --keywords "Polar bears" --limit 200 -cd /Users/tianran/D
 ## 换脸步骤
 
 ### 代码安装
-已完成
+已完成。
+
+代码来源：https://github.com/deepfakes/faceswap/blob/master/USAGE.md#Gathering-raw-data
+
+版权信息以及约束条件：
+- FaceSwap is not for creating inappropriate content.
+- FaceSwap is not **for changing faces without consent or with the intent of hiding its use**.
+- FaceSwap is not for any illicit, unethical, or questionable purposes.
+- FaceSwap exists to experiment and discover AI techniques, for social or political commentary, for movies, and for any number of ethical and reasonable uses.
+
+加粗为争议信息。
 
 ### 人脸模型训练
 代码环境调试完成，等待数据
