@@ -42,10 +42,15 @@ $ googleimagesdownload --keywords "Polar bears" --limit 200 -cd /Users/tianran/D
 
 - \[Under Going] 用这种方法姑且准备爬 李卡、婷姐、彭小苒、陈星旭的1000张图。
 
+
+
 ## 换脸步骤
 
-### 代码安装
-已完成。
+### 代码安装与环境配置
+环境配置：
+
+- Server：Linux Ubuntu 20.04 + 4 * V100
+- Desktop：Linux 20.04 + 1 * 1080 Ti
 
 代码来源：https://github.com/deepfakes/faceswap/blob/master/USAGE.md#Gathering-raw-data
 
@@ -71,6 +76,8 @@ $ googleimagesdownload --keywords "Polar bears" --limit 200 -cd /Users/tianran/D
 - 台剧 第一次..花香，新人演员，数据少，难度较大。暂缓进行。
 
 ### 视频换脸
+训练约耗时数天。
+
 To do
 
 ### 结果调整
