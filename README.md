@@ -6,6 +6,21 @@
 
 欢迎任何建议。
 
+## 需要人工的地方
+
+婷姐八图
+- 微博八图
+- 生写照片八图
+- 洗图
+
+cxx数据集处理
+- 下载一些陈星旭cut资源 我来处理人脸
+- 筛陈星旭训练集（删除其他人物、不合格人脸等
+
+花香
+- 视频资源下载（mp4格式 质量尽量好 譬如无标等）
+- 两位女主微博、facebook等八图
+
 ## 进度
 
 ![1209调试图](https://github.com/CancerandFish/KH_faceswap_proj/blob/main/results/12091321-Training%20-%20'S':%20Save%20Now.%20'R':%20Refresh%20Preview.%20'M':%20Toggle%20Mask.%20'ENTER':%20Save%20and%20Quit_screenshot_09.12.2021.png)
