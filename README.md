@@ -26,7 +26,12 @@ cxx数据集处理
 ### 李卡-pxr 训练进度
 ![1209调试图](https://github.com/CancerandFish/KH_faceswap_proj/blob/main/results/12091321-Training%20-%20'S':%20Save%20Now.%20'R':%20Refresh%20Preview.%20'M':%20Toggle%20Mask.%20'ENTER':%20Save%20and%20Quit_screenshot_09.12.2021.png)
 
-12.9. Iterations: 473579, loss A: 0.03037; loss B: 0.03123
+12.9. 
+
+14:02 停了一下训练，试图验证一下结果。
+
+Iterations: 473579, loss A: 0.03037; loss B: 0.03123
+
 \[Saved models\] Average loss since last save: face_a: 0.02618, face_b: 0.02572
 
 
