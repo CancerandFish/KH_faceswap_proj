@@ -99,6 +99,8 @@ cxx数据集处理
 ||404|nixi_35_over|
 ||305|scanned pictures|
 |彭小苒|2315|谷歌、weibo|
+|cxx|1212|donggong|
+||1762|weibo, google|
 
 
 ### 李卡-pxr 训练进度
