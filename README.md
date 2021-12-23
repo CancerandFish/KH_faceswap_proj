@@ -216,8 +216,16 @@ Some patent and ethitical requirements：
 
 ### Training
 
-I first try the original model, the results tend to be a little blurring, even when I turn the sharp config to max...
-Then I try the DFL model, which 
+I first try the original model, some problems I encountered: 
+
+- the results tend to be a little blurring, even when I turn the sharp config to max...
+- 彭小苒的额饰经常会被模糊掉
+- 边缘不够清楚
+
+- Then I try the DFL model, which takes a 128x128 px image as the input and outputs 256x256 px image. 
+- 针对额饰，我使用了legacy而非face进行界限划定，对于lyt-pxr这个pair，减少脸部识别区域的范围。结果提升巨大，额饰大多时候能够被精准分类。
+- 在convert时，我使用了vgg-obstruction进行遮挡物识别，进一步分开了额饰和人脸。
+针对
 
 
 ### 视频换脸
