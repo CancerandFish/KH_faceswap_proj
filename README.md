@@ -239,11 +239,11 @@ Original模型使用1080Ti主机即可运行，训练约耗时1天左右。其�
 
 After 450k iters, Lyt-pxr's results:
 
-![lyt-pxr](https://github.com/CancerandFish/KH_faceswap_proj/blob/main/results/lyt_results.png)
+![lyt-pxr](https://github.com/CancerandFish/KH_faceswap_proj/blob/main/results/lyt_result.jpg)
 
 After 300k iters, Htt-cxx's results:
 
-![lyt-pxr](https://github.com/CancerandFish/KH_faceswap_proj/blob/main/results/htt_results.png)
+![lyt-pxr](https://github.com/CancerandFish/KH_faceswap_proj/blob/main/results/htt_result.jpg)
 
 
 ## 附录
