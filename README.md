@@ -225,17 +225,16 @@ I first try the original model, some problems I encountered:
 - Then I try the DFL model, which takes a 128x128 px image as the input and outputs 256x256 px image. 
 - 针对额饰，我使用了legacy而非face进行界限划定，对于lyt-pxr这个pair，减少脸部识别区域的范围。结果提升巨大，额饰大多时候能够被精准分类。
 - 在convert时，我使用了vgg-obstruction进行遮挡物识别，进一步分开了额饰和人脸。
-针对
+- 针对边缘不够清楚的问题，分析原因在于侧脸samples过少，但受限于时间，无法进行修正。因此在convert阶段，我对于个别侧脸部分进行erosion设置，使这里的边缘使用pxr本人的轮廓，替代生成的轮廓，以此产生清晰的边缘。
 
 
 ### 视频换脸
-训练约耗时数天。
 
-To do
+Original模型使用1080Ti主机即可运行，训练约耗时1天左右。其输出为64x64 px.
 
-### 结果调整
-To do
+而DFL模型输出较Original大16倍，考虑到网络深度和宽度的不同，其训练时间比较长，一张1080ti的内存也很难达标。因此，我将DFL放于Server运算，以4张32G V100进行训练，约耗时4天左右。
 
+### Some results
 
 
 
@@ -276,9 +275,6 @@ To do
 
 
 
-链接：https://pan.baidu.com/s/1xQQ_Gnpq2pxT9naFK3GLzA 
-提取码：kh48 
-陈星旭的也好了
 
 
 
