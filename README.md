@@ -227,6 +227,7 @@ I first try the original model, some problems I encountered:
 - 在convert时，我使用了vgg-obstruction进行遮挡物识别，进一步分开了额饰和人脸。
 - 针对边缘不够清楚的问题，分析原因在于侧脸samples过少，但受限于时间，无法进行修正。因此在convert阶段，我对于个别侧脸部分进行erosion设置，使这里的边缘使用pxr本人的轮廓，替代生成的轮廓，以此产生清晰的边缘。
 
+![poster](https://github.com/CancerandFish/KH_faceswap_proj/blob/main/results/poster_lyt_htt.png)
 
 ### 视频换脸
 
@@ -235,6 +236,8 @@ Original模型使用1080Ti主机即可运行，训练约耗时1天左右。其�
 而DFL模型输出较Original大16倍，考虑到网络深度和宽度的不同，其训练时间比较长，一张1080ti的内存也很难达标。因此，我将DFL放于Server运算，以4张32G V100进行训练，约耗时4天左右。
 
 ### Some results
+
+
 
 
 
