@@ -97,7 +97,7 @@ cxx数据集处理
 
 
 
-
+<!-- 
 
 
 
@@ -113,7 +113,7 @@ cxx数据集处理
 
 Iterations: 473579, loss A: 0.03037; loss B: 0.03123
 
-\[Saved models\] Average loss since last save: face_a: 0.02618, face_b: 0.02572 -->
+\[Saved models\] Average loss since last save: face_a: 0.02618, face_b: 0.02572 --> -->
 
 
 ## Training samples collection
