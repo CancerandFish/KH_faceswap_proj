@@ -1,5 +1,10 @@
 # KH_faceswap_proj
 
+Welcome to the project page!
+
+![1209调试图](https://github.com/CancerandFish/KH_faceswap_proj/blob/main/results/poster_lyt_htt.jpg)
+
+
 本项目仅以教育、学习为目的进行。
 
 标 \[*\] 部分为可能需要人工协助的部分。
