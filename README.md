@@ -135,22 +135,23 @@ As lyt and htt is so bonded together ❤️, their parts will be merged.
 #### Lyt and Htt
 
 - Video:
-  - 卡黄电视剧cut素材（现代剧《逆袭》），视频形式，其余人脸干扰有，需要手动清除。
-  - htt单人电视剧cut素材，古装剧《素手遮天》
-  - 卡黄unit、solo等演唱会focus，质量好，但光照衣着角度均单一。其余人脸干扰有，需要手动清除。
-
+  - 卡黄电视剧cut素材（现代剧《逆袭》），mp4 format，其余人脸干扰有，manually cleaned
+  - htt单人电视剧cut素材，古装剧《素手遮天》, manually cleaned
+  
 - Images：
-  - google爬取
-  - 卡黄各类扫图合集。侧脸太少。
+  - google crawling
+  - 卡黄各类扫图合集。lack in side faces
+  - 卡黄unit、solo等演唱会focus，good quality，但光照衣着角度均单一。其余人脸干扰有，manually cleaned
+
 
 #### CXX and PXR
 
 - Images：
   - 本人微博、本人个站
-  - google爬取
+  - google crawling
   
 - Videos：
-  - 东宫前16集cut
+  - 东宫前16集cut, manually cleaned
 
 #### Summary
 
@@ -197,36 +198,27 @@ I use built-in functions in faceswap to extract faces inside the video. I list s
 -  use sort, a built-in functions in faceswap, before you manually remove the other faces you do not want to remain in your training set
 
 
-## 换脸步骤
+## Let's begin swapping
 
-### 代码安装与环境配置
-环境配置：
-
+### Codes and environment intalling
+My environment:
 - Server：Linux Ubuntu 20.04 + 4 * V100
 - Desktop：Linux 20.04 + 1 * 1080 Ti
 
-代码来源：https://github.com/deepfakes/faceswap/blob/master/USAGE.md#Gathering-raw-data
+Codes from：https://github.com/deepfakes/faceswap/blob/master/USAGE.md#Gathering-raw-data
 
-版权信息以及约束条件：
+Some patent and ethitical requirements：
 - FaceSwap is not for creating inappropriate content.
 - FaceSwap is not **for changing faces without consent or with the intent of hiding its use**.
 - FaceSwap is not for any illicit, unethical, or questionable purposes.
 - FaceSwap exists to experiment and discover AI techniques, for social or political commentary, for movies, and for any number of ethical and reasonable uses.
 
-加粗为争议信息。
 
-### 人脸模型训练
-代码环境调试完成，等待数据
+### Training
 
-#### 源图像预处理（角度、亮度等多样性手动挑选）
+I first try the original model, the results tend to be a little blurring, even when I turn the sharp config to max...
+Then I try the DFL model, which 
 
-- \[*\]角度多样性手动筛选
-
-### 目标视频素材准备 
-备选素材：
-- 东宫（陈星旭，彭小苒），\[*\]选段未定。
-- 太阳的后裔（宋慧乔，宋仲基），\[*\]选段未定。
-- 台剧 第一次..花香，新人演员，数据少，难度较大。暂缓进行。
 
 ### 视频换脸
 训练约耗时数天。
