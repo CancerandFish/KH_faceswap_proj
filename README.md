@@ -1,8 +1,8 @@
 # KH_faceswap_proj
 
-Chinese version follows English version.
+📢中英文夹杂注意
 
-Welcome to the project page!
+👏🏻Welcome to the project page!
 
 ![poster](https://github.com/CancerandFish/KH_faceswap_proj/blob/main/results/poster_lyt_htt.png)
 
@@ -260,15 +260,7 @@ Original模型使用1080Ti主机即可运行，训练约耗时1天左右。其�
 
 ⚠️警告：小心鞠婧祎、赵粤、lyt、曾艳芬、纸片人、帝后合照……
 
-### 人工清洗手册（ver1 进阶）
 
-具体地，请：
-- **处理** 而非 直接**删除不合格**图片
-  - 图片不含文件夹命名之人物（如：李卡图包中某图无李卡），直接**删掉**。
-  - 图片中含有李卡、以及除李卡外的其他人，请适当裁剪至只剩李卡脸一人。
-- 标注侧脸图片
-  - 若本图片的角度**非绝对正脸**，即，左或右偏转约45度，请复制它，至单独文件夹，以‘xx’文件夹为例，请命名为‘xx-侧脸’。
-- 重新上传百度网盘（无需压缩）。
 
 
 
