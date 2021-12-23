@@ -227,7 +227,7 @@ I first try the original model, some problems I encountered:
 - 在convert时，我使用了vgg-obstruction进行遮挡物识别，进一步分开了额饰和人脸。
 - 针对边缘不够清楚的问题，分析原因在于侧脸samples过少，但受限于时间，无法进行修正。因此在convert阶段，我对于个别侧脸部分进行erosion设置，使这里的边缘使用pxr本人的轮廓，替代生成的轮廓，以此产生清晰的边缘。
 
-![poster](https://github.com/CancerandFish/KH_faceswap_proj/blob/main/results/poster_lyt_htt.png)
+![poster](https://github.com/CancerandFish/KH_faceswap_proj/blob/main/results/comparison.png)
 
 ### 视频换脸
 
