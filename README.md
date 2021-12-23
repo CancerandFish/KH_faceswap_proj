@@ -1,14 +1,13 @@
 # KH_faceswap_proj
+<br><br/>
+<div align=center>📢中英文夹杂注意</div>
+<br><br/>
+<div align=center>👏🏻Welcome to the project page!</div>
+<br><br/>
+<div align=center><img src="https://github.com/CancerandFish/KH_faceswap_proj/blob/main/results/poster_lyt_htt.png" width="400" alt="poster"/><br/></div>
 
-📢中英文夹杂注意
-
-👏🏻Welcome to the project page!
-
-<img src="https://github.com/CancerandFish/KH_faceswap_proj/blob/main/results/poster_lyt_htt.png" width="100" alt="poster"/><br/>
-
-
-<!-- ![poster](https://github.com/CancerandFish/KH_faceswap_proj/blob/main/results/poster_lyt_htt.png) -->
-
+<br><br/>
+<br><br/>
 This project is only a simple turtorial that introduces my small try on faceswap. Big thanks for 阿羊🐑，板蓝根👧🏻，林老师🐺，柏诺👧🏻 and all the people that encourage me and take part in the project.
 
 Your suggestions are alwayas welcome. You can contact me any time by leave your issues here.
@@ -37,12 +36,7 @@ cxx数据集处理
 花香
 - 视频资源下载（mp4格式 质量尽量好 譬如无标等）
 - 两位女主微博、facebook等八图
-
-## 进度
-
-
-
-### 总进度 -->
+-->
 
 <!-- 12.9
 
@@ -101,12 +95,6 @@ cxx数据集处理
 
 
 <!-- 
-
-
-
-
-
-
 ### 李卡-pxr 训练进度
 ![1209调试图](https://github.com/CancerandFish/KH_faceswap_proj/blob/main/results/12091321-Training%20-%20'S':%20Save%20Now.%20'R':%20Refresh%20Preview.%20'M':%20Toggle%20Mask.%20'ENTER':%20Save%20and%20Quit_screenshot_09.12.2021.png)
 
@@ -116,7 +104,7 @@ cxx数据集处理
 
 Iterations: 473579, loss A: 0.03037; loss B: 0.03123
 
-\[Saved models\] Average loss since last save: face_a: 0.02618, face_b: 0.02572 --> -->
+\[Saved models\] Average loss since last save: face_a: 0.02618, face_b: 0.02572 --> 
 
 
 ## Training samples collection
@@ -230,7 +218,8 @@ I first try the original model, some problems I encountered:
 - 在convert时，我使用了vgg-obstruction进行遮挡物识别，进一步分开了额饰和人脸。
 - 针对边缘不够清楚的问题，分析原因在于侧脸samples过少，但受限于时间，无法进行修正。因此在convert阶段，我对于个别侧脸部分进行erosion设置，使这里的边缘使用pxr本人的轮廓，替代生成的轮廓，以此产生清晰的边缘。
 
-![poster](https://github.com/CancerandFish/KH_faceswap_proj/blob/main/results/comparison.png)
+
+<div align=center><img src="https://github.com/CancerandFish/KH_faceswap_proj/blob/main/results/comparison.png" width="400" alt="comparison"/><br/></div>
 
 ### 视频换脸
 
@@ -242,11 +231,12 @@ Original模型使用1080Ti主机即可运行，训练约耗时1天左右。其�
 
 After 450k iters, Lyt-pxr's results:
 
-![lyt-pxr](https://github.com/CancerandFish/KH_faceswap_proj/blob/main/results/lyt_result.jpg)
+<div align=center><img src="https://github.com/CancerandFish/KH_faceswap_proj/blob/main/results/lyt_result.jpg" width="400" alt="lyt-pxr"/><br/></div>
 
 After 300k iters, Htt-cxx's results:
 
-![lyt-pxr](https://github.com/CancerandFish/KH_faceswap_proj/blob/main/results/htt_result.jpg)
+<div align=center><img src="https://github.com/CancerandFish/KH_faceswap_proj/blob/main/results/htt_result.jpg" width="400" alt="htt-cxx"/><br/></div>
+
 
 
 ## 附录
