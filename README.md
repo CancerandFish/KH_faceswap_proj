@@ -6,9 +6,9 @@ Welcome to the project page!
 
 ![poster](https://github.com/CancerandFish/KH_faceswap_proj/blob/main/results/poster_lyt_htt.png)
 
-This project is only a simple turtorial that introduces my small try on faceswap.
+This project is only a simple turtorial that introduces my small try on faceswap. Big thanks for 阿羊🐑，板蓝根👧🏻，林老师🐺，柏诺👧🏻 and all the people that encourage me and take part in the project.
 
-Your suggestions are alwayas welcome. 
+Your suggestions are alwayas welcome. You can contact me any time by leave your issues here.
 
 
 本项目仅以教育、学习为目的进行. 欢迎任何建议.
