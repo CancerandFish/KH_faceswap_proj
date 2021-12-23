@@ -2,7 +2,7 @@
 
 Welcome to the project page!
 
-![1209调试图](https://github.com/CancerandFish/KH_faceswap_proj/blob/main/results/poster_lyt_htt.jpg)
+![poster](https://github.com/CancerandFish/KH_faceswap_proj/blob/main/results/poster_lyt_htt.png)
 
 
 本项目仅以教育、学习为目的进行。
