@@ -238,6 +238,11 @@ After 300k iters, Htt-cxx's results:
 <div align=center><img src="https://github.com/CancerandFish/KH_faceswap_proj/blob/main/results/htt_result.jpg" width="400" alt="htt-cxx"/><br/></div>
 
 
+## 视频输出
+
+1. “生生世世，我都要永远忘了你。” （链接🔗）
+
+2. “我一直爱着一个骗子。”
 
 ## 附录
 ### 人工清洗手册（ver0 初步）
