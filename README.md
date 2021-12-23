@@ -167,11 +167,11 @@ As lyt and htt is so bonded together ❤️, their parts will be merged.
 ||1762|weibo, google|
 
 
-### 爬取谷歌图片
+### Google images crawling
 
-- 代码包：https://github.com/hardikvasa/google-images-download
+- codes available：https://github.com/hardikvasa/google-images-download
 
-不过这个版本有bug。
+But this version has a bug (at least for me Linux 20.04
 
 - 已经解决issue的正确版本：https://github.com/Joeclinton1/google-images-download
 - 安装方法
@@ -187,8 +187,14 @@ $ sudo python setup.py install
 $ googleimagesdownload --keywords "Polar bears" --limit 200 -cd /Users/tianran/Downloads/chromedriver
 ```
 
-- \[Under Going] 用这种方法姑且准备爬 李卡、婷姐、彭小苒、陈星旭的1000张图。
+### Video extracting suggestions
+I use built-in functions in faceswap to extract faces inside the video. I list some tricks here:
 
+-  use single person cut instead of the whole video, especially when your target is not the main actor/actoress
+-  use 1080p video sources
+-  set extract frame interval to be ~40 to meet the **diversity** requirements
+-  set `min_size = 256`, to extract only clear and large faces
+-  use sort, a built-in functions in faceswap, before you manually remove the other faces you do not want to remain in your training set
 
 
 ## 换脸步骤
