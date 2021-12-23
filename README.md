@@ -1,19 +1,26 @@
 # KH_faceswap_proj
 
+Chinese version follows English version.
+
 Welcome to the project page!
 
 ![poster](https://github.com/CancerandFish/KH_faceswap_proj/blob/main/results/poster_lyt_htt.png)
 
+This project is only a simple turtorial that introduces my small try on faceswap.
 
-本项目仅以教育、学习为目的进行。
+Your suggestions are alwayas welcome. 
 
-标 \[*\] 部分为可能需要人工协助的部分。
 
-欢迎任何建议。
+本项目仅以教育、学习为目的进行. 欢迎任何建议.
 
 我觉得这个项目应该奖励我两斤决明子泡茶喝（
 
-## 需要人工的地方
+
+
+
+
+
+<!-- ## 需要人工的地方
 
 婷姐八图
 - 微博八图
@@ -32,9 +39,9 @@ cxx数据集处理
 
 
 
-### 总进度
+### 总进度 -->
 
-12.9
+<!-- 12.9
 
 在450k iter时停止了original model的训练，并进行测试（感谢0老师提供视频源文件
 
@@ -95,17 +102,6 @@ cxx数据集处理
 
 
 
-|人物名|目前有效训练集数目|来源|
-|--|--|--|
-|李卡|2055|谷歌、图包、夜蝶mv|
-|黄婷|707|谷歌、夜蝶mv|
-||2074|sushou|
-||809|nixi_02_34|
-||404|nixi_35_over|
-||305|scanned pictures|
-|彭小苒|2315|谷歌、weibo|
-|cxx|1212|donggong|
-||1762|weibo, google|
 
 
 ### 李卡-pxr 训练进度
@@ -117,20 +113,59 @@ cxx数据集处理
 
 Iterations: 473579, loss A: 0.03037; loss B: 0.03123
 
-\[Saved models\] Average loss since last save: face_a: 0.02618, face_b: 0.02572
+\[Saved models\] Average loss since last save: face_a: 0.02618, face_b: 0.02572 -->
 
-## 数据集收集阶段
 
-原始数据要求：
-- When extracting faces for training, you are looking to gather around **500 to 5000** faces for each subject you wish to train. These should be of a **high quality** and contain **a wide variety of angles, expressions and lighting conditions**.
+## Training samples collection
 
-- **Do not** extract every single frame from a video for training as from frame to frame the faces will be very similar.
+Some tips for face data:
 
-### 人工收集
-- \[*\]卡黄电视剧cut素材（现代剧《逆袭》），视频形式，其余人脸干扰有，需要手动清除。
-- \[*\]卡黄unit、solo等演唱会focus，已完成，质量好，但光照衣着角度均单一。其余人脸干扰有，需要手动清除。
-- 卡黄采访视频。光照衣着角度均单一。其余人脸干扰无。
-- 个站微博爬取。形式多样，但精修后过于失真。
+As required/suggested by faceswap official guidelines, we are asked to gather 
+
+- around **500 to 5000** faces for each subject
+- should be of a **high quality** and contain **a wide variety of angles, expressions and lighting conditions**.
+- **do not** extract every single frame from a video for training as from frame to frame the faces will be very similar.
+
+So in this section, we first start to introduce our face sources, each of which is followed by the invloved collecting methods in detail. 
+
+As lyt and htt is so bonded together ❤️, their parts will be merged. 
+
+### Source collection
+
+#### Lyt and Htt
+
+- Video:
+  - 卡黄电视剧cut素材（现代剧《逆袭》），视频形式，其余人脸干扰有，需要手动清除。
+  - htt单人电视剧cut素材，古装剧《素手遮天》
+  - 卡黄unit、solo等演唱会focus，质量好，但光照衣着角度均单一。其余人脸干扰有，需要手动清除。
+
+- Images：
+  - google爬取
+  - 卡黄各类扫图合集。侧脸太少。
+
+#### CXX and PXR
+
+- Images：
+  - 本人微博、本人个站
+  - google爬取
+  
+- Videos：
+  - 东宫前16集cut
+
+#### Summary
+
+|Name|Number of Valid Training Samples|Source|
+|--|--|--|
+|lyt|2055-3200|谷歌、图包、夜蝶mv、逆袭|
+|htt|707|谷歌、夜蝶mv|
+||2074|sushou|
+||809|nixi_02_34|
+||404|nixi_35_over|
+||305|scanned pictures|
+|pxr|2315|谷歌、weibo|
+|cxx|1212|donggong|
+||1762|weibo, google|
+
 
 ### 爬取谷歌图片
 
