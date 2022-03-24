@@ -19,6 +19,19 @@ Your suggestions are alwayas welcome. You can contact me any time by leave your 
 
 
 
+三月工作记录：
+
+3.25 给pxr和lyt的图进行加mask工作 初步决定用fp-face这个mask。在desktop上extractmask中。
+
+存到lyt-march-sorted-2和pxr-march-sorted-mask中了。
+
+要做：
+
+1. sort
+2. clean，还要clean alignments
+3. 传到服务器
+4. 开mask训
+
 
 
 
